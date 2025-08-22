@@ -1,0 +1,29 @@
+#footer{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(63, 53, 38);
+}
+
+#footer h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#footer h3{
+     font-size: 25px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 429px){
+    #footer h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer h3{
+     font-size: 20px;
+    font-weight: 500;
+}
+}

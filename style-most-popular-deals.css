@@ -1,0 +1,20 @@
+#most-popular-deals {
+    height: auto;
+    position: sticky;
+    overflow: hidden;
+    padding: 20px 30px;
+    background-color: rgb(194, 216, 224);
+    border-radius: 20px;
+}
+
+#most-popular-deals-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#most-popular-deals-cards a {
+    text-decoration: none;
+    color: black;
+    width: min-content;
+}

@@ -1,0 +1,17 @@
+#fashion-stories{
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 30px 0px;
+}
+
+#fashion-stories-cards {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#fashion-stories-cards a{
+  text-decoration: none;
+  color: black;
+  width: min-content;
+}

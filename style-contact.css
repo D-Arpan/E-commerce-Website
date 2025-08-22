@@ -1,0 +1,295 @@
+#contact {
+    padding: 1.5% 4%;
+    background-color: rgb(133, 119, 96);
+}
+
+#contact-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+#contact-content #h2 {
+    font-size: 30px;
+}
+
+#socials h4 {
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+#socials h4:hover {
+    transform: scale(1.1);
+}
+
+#socials h4:hover a {
+    color: rgb(13, 60, 102);
+}
+
+#socials h4 i {
+    font-size: 23px;
+}
+
+#socials h4 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#sitemap ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#sitemap ul li a {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#sitemap ul li:hover a {
+    color: rgb(13, 60, 102);
+}
+
+
+#customer-care h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+#customer-care h4:hover {
+    transform: scale(1.02)
+}
+
+#customer-care h4 i {
+    font-size: 23px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 425px) {
+
+    #contact-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-content #h2 {
+        font-size: 25px;
+    }
+
+    #socials h4 i {
+        font-size: 20px;
+    }
+
+    #socials h4 a {
+        font-size: 16px;
+    }
+
+    #sitemap ul li a {
+        font-size: 16px;
+    }
+
+    #customer-care h4 {
+        font-size: 16px;
+    }
+
+    #customer-care h4 i {
+        font-size: 20px;
+    }
+
+    #customer-care h4 span {
+        font-size: 16px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 130px;
+    }
+
+    #socials {
+        padding: 20px 0;
+    }
+
+    #sitemap {
+        padding: 20px 0;
+    }
+
+    #customer-care {
+        padding: 20px 0;
+    }
+
+    #logo {
+        padding: 20px 0;
+    }
+
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 765px) {
+
+    #contact-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-content #h2 {
+        font-size: 25px;
+    }
+
+    #socials h4 i {
+        font-size: 20px;
+    }
+
+    #socials h4 a {
+        font-size: 16px;
+    }
+
+    #sitemap ul li a {
+        font-size: 16px;
+    }
+
+    #customer-care h4 {
+        font-size: 16px;
+    }
+
+    #customer-care h4 i {
+        font-size: 20px;
+    }
+
+    #customer-care h4 span {
+        font-size: 16px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 130px;
+    }
+
+    #socials {
+        padding: 20px 0;
+    }
+
+    #sitemap {
+        padding: 20px 0;
+    }
+
+    #customer-care {
+        padding: 20px 0;
+    }
+
+    #logo {
+        padding: 20px 0;
+    }
+
+}
+
+
+@media screen and (min-width: 766px) and (max-width: 900px) {
+    #contact-content #h2 {
+        font-size: 23px;
+    }
+
+    #socials h4 i {
+        font-size: 18px;
+    }
+
+    #socials h4 a {
+        font-size: 14px;
+    }
+
+    #sitemap ul li a {
+        font-size: 14px;
+    }
+
+    #customer-care h4 {
+        font-size: 14px;
+    }
+
+    #customer-care h4 i {
+        font-size: 18px;
+    }
+
+    #customer-care h4 span {
+        font-size: 14px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 130px;
+    }
+}
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    #contact-content #h2 {
+        font-size: 25px;
+    }
+
+    #socials h4 i {
+        font-size: 20px;
+    }
+
+    #socials h4 a {
+        font-size: 16px;
+    }
+
+    #sitemap ul li a {
+        font-size: 16px;
+    }
+
+    #customer-care h4 {
+        font-size: 16px;
+    }
+
+    #customer-care h4 i {
+        font-size: 20px;
+    }
+
+    #customer-care h4 span {
+        font-size: 16px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 150px;
+    }
+}

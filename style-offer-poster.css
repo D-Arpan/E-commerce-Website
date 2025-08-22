@@ -1,0 +1,104 @@
+#poster {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+#offer-poster-slider {
+    width: 80%;
+    height: auto;
+    position: relative;
+    z-index: 1px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#offer-poster-slides {
+    display: flex;
+    width: 100%;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    /* Image 1 */
+    15% {
+        transform: translateX(0%);
+    }
+
+    /* Hold Image 1 */
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    /* Slide to Image 2 */
+    35% {
+        transform: translateX(-100%);
+    }
+
+    /* Hold Image 2 */
+
+    40% {
+        transform: translateX(-200%);
+    }
+
+    /* Slide to Image 3 */
+    55% {
+        transform: translateX(-200%);
+    }
+
+    /* Hold Image 3 */
+
+    60% {
+        transform: translateX(-300%);
+    }
+
+    /* Slide to Image 4 */
+    75% {
+        transform: translateX(-300%);
+    }
+
+    /* Hold Image 4 */
+
+    80% {
+        transform: translateX(-400%);
+    }
+
+    /* Slide to Image 5 */
+    95% {
+        transform: translateX(-400%);
+    }
+
+    /* Hold Image 5 */
+
+    100% {
+        transform: translateX(0%);
+    }
+
+    /* Back to Image 1 */
+}
+
+#offer-poster-slides img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 376px) and (max-width: 429px) {
+
+    #offer-poster-slider {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 315px) and (max-width: 375px) {
+    #offer-poster-slider {
+        width: 90%;
+    }
+}
