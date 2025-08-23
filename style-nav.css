@@ -292,180 +292,263 @@
         width: 72px;
 
     }
+}
 
 
 
+@media screen and (min-width: 591px) and (max-width: 765px) {
+    #upper-nav {
+        padding: 8px 8px;
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background-color: rgb(255, 254, 246);
+        box-shadow: 0 0 5px gray;
+    }
 
-    @media screen and (min-width: 591px) and (max-width: 765px) {
-        #upper-nav {
-            padding: 8px 10px;
-            height: 60px;
-        }
+    #upper-nav img {
+        width: 60px;
+        margin: 0;
+        padding: 0;
+    }
 
-        #upper-nav img {
-            width: 60px;
-        }
+    #search-bar {
+        padding: 0px 10px;
+        background-color: white;
+        border: 1px solid;
+        border-radius: 50px;
+        width: 300px;
+        height: 35px;
+    }
 
-        #search-bar {
-            width: 200px;
-            height: 35px;
-        }
+    #search-bar form {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-
-        .nav-button {
-            font-size: 18px;
-        }
-
-
-        #login-text {
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        #login-and-cart {
-            width: 100px;
-        }
-
-        .nav-card .nav-card-image {
-            height: 125px;
-            width: 100px;
-        }
-
-        .nav-card-content h3 {
-            font-size: 10px;
-            font-weight: 700;
-        }
-
-        #lower-nav {
-            padding-top: 60px;
-        }
-
-        .nav-card {
-            padding-top: 20px;
-        }
-
+    #search-bar form input {
+        background-color: transparent;
+        border: none;
+        height: 100%;
+        width: 95%;
+        padding: 0px 10px;
 
     }
 
+    #search-bar form button {
+        background-color: transparent;
+        border: none;
+        font-size: 15px;
+    }
 
+    .nav-button {
+        border: none;
+        background-color: transparent;
+        transition: transform 0.3s;
+        font-size: 18px;
+    }
 
-    @media screen and (min-width: 766px) and (max-width: 900px) {
-        #upper-nav {
-            padding: 8px 10px;
-            height: 60px;
-        }
+    .nav-button:hover {
+        transform: scale(1.1);
+    }
 
-        #upper-nav img {
-            width: 60px;
-        }
+    #login-text {
+        font-size: 23px;
+        font-weight: 500;
+    }
 
-        #search-bar {
-            width: 400px;
-            height: 40px;
-        }
+    #login-and-cart {
+        width: 130px;
+    }
 
-
-        .nav-button {
-            font-size: 18px;
-        }
-
-
-        #login-text {
-            font-size: 19px;
-            font-weight: 500;
-        }
-
-        #login-and-cart {
-            width: 100px;
-        }
-
-        .nav-card .nav-card-image {
-            height: 70px;
-            width: 60px;
-        }
-
-        .nav-card-content h3 {
-            font-size: 10px;
-            font-weight: 700;
-        }
-
-        #lower-nav {
-            padding-top: 60px;
-        }
-
-        .nav-card {
-            padding-top: 20px;
-        }
-
+    #lower-nav {
+        padding: 0 10px;
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(255, 254, 246);
     }
 
 
-    @media screen and (min-width: 901px) and (max-width: 1100px) {
-        #upper-nav {
-            padding: 8px 20px;
-            height: 80px;
-        }
-
-        #upper-nav img {
-            width: 60px;
-        }
-
-        #search-bar {
-            width: 400px;
-            height: 40px;
-        }
-
-
-        .nav-button {
-            font-size: 18px;
-        }
-
-
-        #login-text {
-            font-size: 23px;
-            font-weight: 500;
-        }
-
-        #login-and-cart {
-            width: 150px;
-        }
-
-        .nav-card .nav-card-image {
-            height: 75px;
-            width: 60px;
-        }
-
-        .nav-card-content h3 {
-            font-size: 10px;
-            font-weight: 700;
-        }
-
-        #lower-nav {
-            padding-top: 80px;
-        }
+    #lower-nav a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        transition: transform 0.3s ease;
     }
 
-    @media screen and (min-width: 1101px) and (max-width: 1400px) {
-        .nav-card .nav-card-image {
-            height: 100px;
-            width: 80px;
-        }
-
-        .nav-card-content h3 {
-            font-size: 10px;
-            font-weight: 800;
-        }
+    #lower-nav a:hover {
+        transform: scale(1.01);
+        color: blue;
     }
 
-    @media screen and (min-width: 1401px) and (max-width: 1600px) {
-        .nav-card .nav-card-image {
-            height: 125px;
-            width: 100px;
-        }
 
-        .nav-card-content h3 {
-            font-size: 12px;
-            font-weight: 700;
-        }
+    .nav-card {
+        padding-top: 20px;
+    }
+
+
+    .nav-card .nav-card-image {
+        width: 1208x;
+        height: 160px;
+        padding: 0 0;
+        text-align: center;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+
+    .nav-card .nav-card-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-card:hover .card-image {
+        transform: scale(1.02);
+    }
+
+
+    .nav-card-content {
+        padding: 5px 0;
+    }
+
+
+    .nav-card-content h3 {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+}
+
+
+
+@media screen and (min-width: 766px) and (max-width: 900px) {
+    #upper-nav {
+        padding: 8px 10px;
+        height: 60px;
+    }
+
+    #upper-nav img {
+        width: 60px;
+    }
+
+    #search-bar {
+        width: 400px;
+        height: 40px;
+    }
+
+
+    .nav-button {
+        font-size: 18px;
+    }
+
+
+    #login-text {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    #login-and-cart {
+        width: 100px;
+    }
+
+    .nav-card .nav-card-image {
+        height: 70px;
+        width: 60px;
+    }
+
+    .nav-card-content h3 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #lower-nav {
+        padding-top: 60px;
+    }
+
+    .nav-card {
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    #upper-nav {
+        padding: 8px 20px;
+        height: 80px;
+    }
+
+    #upper-nav img {
+        width: 60px;
+    }
+
+    #search-bar {
+        width: 400px;
+        height: 40px;
+    }
+
+
+    .nav-button {
+        font-size: 18px;
+    }
+
+
+    #login-text {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    #login-and-cart {
+        width: 150px;
+    }
+
+    .nav-card .nav-card-image {
+        height: 75px;
+        width: 60px;
+    }
+
+    .nav-card-content h3 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #lower-nav {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
+    .nav-card .nav-card-image {
+        height: 100px;
+        width: 80px;
+    }
+
+    .nav-card-content h3 {
+        font-size: 10px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+    .nav-card .nav-card-image {
+        height: 125px;
+        width: 100px;
+    }
+
+    .nav-card-content h3 {
+        font-size: 12px;
+        font-weight: 700;
     }
 }
