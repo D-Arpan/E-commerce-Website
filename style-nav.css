@@ -155,10 +155,10 @@
         position: relative;
         padding: 10px 20px;
         display: flex;
-        height: 150px;
+        /* height: 150px; */
         align-items: start;
         justify-content: space-between;
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         left: 0;
         right: 0;
@@ -168,7 +168,7 @@
     }
 
     #upper-nav img {
-        width: 80px;
+        width: 40px;
     }
 
     #search-bar {
@@ -178,7 +178,7 @@
         transform: translate(-50%, -50%);
         border-radius: 12px;
         width: 90%;
-        height: 35px;
+        height: 25px;
     }
 
     #login-and-cart {
@@ -186,7 +186,7 @@
     }
 
     #lower-nav {
-        padding-top: 150px;
+        padding-top: 10px;
     }
 
 
@@ -194,20 +194,24 @@
         height: 75px;
         width: 60px;
     }
+
+    .nav-button {
+        font-size: 15px;
+    }
 }
 
 
 
 @media screen and (min-width: 376px) and (max-width: 429px) {
 
-    #upper-nav {
+     #upper-nav {
         position: relative;
         padding: 10px 20px;
         display: flex;
-        height: 150px;
+        /* height: 150px; */
         align-items: start;
         justify-content: space-between;
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         left: 0;
         right: 0;
@@ -217,7 +221,7 @@
     }
 
     #upper-nav img {
-        width: 80px;
+        width: 40px;
     }
 
     #search-bar {
@@ -227,7 +231,7 @@
         transform: translate(-50%, -50%);
         border-radius: 12px;
         width: 90%;
-        height: 35px;
+        height: 30px;
     }
 
     #login-and-cart {
@@ -235,27 +239,30 @@
     }
 
     #lower-nav {
-        padding-top: 150px;
+        padding-top: 10px;
     }
 
 
     .nav-card .nav-card-image {
-        height: 90px;
-        width: 72px;
+        height: 75px;
+        width: 60px;
+    }
+
+    .nav-button {
+        font-size: 15px;
     }
 }
-
 
 
 @media screen and (min-width: 430px) and (max-width: 590px) {
-    #upper-nav {
+       #upper-nav {
         position: relative;
         padding: 10px 20px;
         display: flex;
-        height: 150px;
+        /* height: 150px; */
         align-items: start;
         justify-content: space-between;
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         left: 0;
         right: 0;
@@ -265,7 +272,7 @@
     }
 
     #upper-nav img {
-        width: 80px;
+        width: 45px;
     }
 
     #search-bar {
@@ -275,7 +282,7 @@
         transform: translate(-50%, -50%);
         border-radius: 12px;
         width: 90%;
-        height: 35px;
+        height: 30px;
     }
 
     #login-and-cart {
@@ -283,17 +290,19 @@
     }
 
     #lower-nav {
-        padding-top: 150px;
+        padding-top: 10px;
     }
 
 
     .nav-card .nav-card-image {
-        height: 90px;
-        width: 72px;
+        height: 75px;
+        width: 60px;
+    }
 
+    .nav-button {
+        font-size: 13px;
     }
 }
-
 
 
 @media screen and (min-width: 591px) and (max-width: 765px) {
